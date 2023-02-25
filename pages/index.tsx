@@ -26,9 +26,9 @@ export default function Home() {
 	return (
 		<>
 			<SEO
-				title="Hello World 👋!"
-				keywords="Lucas Ciapparelli, Full Stack developer, javascript developer, home, services, skills, user experience, user interface"
-				description="Lucas Ciapparelli, soy un Full Stack Developer especialista en crear aplicaciones web amigables y dinámicas. Más información sobre mis servicios y habilidades."
+				title="Portfolio | Lucas Ciapparelli"
+				keywords="Lucas Ciapparelli, Full Stack Developer, Javascript Developer, home, services, contact, skills, user experience, user interface, Freelancer, Portfolio, jobs"
+				description="Me llamo Lucas Ciapparelli y soy Full Stack Developer, especialista en crear aplicaciones web amigables y dinámicas. Más información sobre mis servicios y habilidades."
 			/>
 			<Hero />
 			<Projects />
