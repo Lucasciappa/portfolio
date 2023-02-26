@@ -20,7 +20,7 @@ const KBar = (props: KBarProps) => {
 	const actions: Action[] = [
 		{
 			id: "light-mode",
-			name: "Light Mode",
+			name: "Tema Claro",
 			keywords: "light mode",
 			section: "Set Theme",
 			perform: () => setTheme("light"),
@@ -28,7 +28,7 @@ const KBar = (props: KBarProps) => {
 		},
 		{
 			id: "dark-mode",
-			name: "Dark Mode",
+			name: "Tema Oscuro",
 			keywords: "dark mode",
 			section: "Set Theme",
 			perform: () => setTheme("dark"),
@@ -39,7 +39,7 @@ const KBar = (props: KBarProps) => {
 			name: "GitHub",
 			keywords: "github",
 			section: "Social",
-			perform: () => window.open("https://github.com/gitonga-deus", "_blank"),
+			perform: () => window.open("https://github.com/Lucasciappa", "_blank"),
 			icon: <Github width="30" height="30" />,
 		},
 		{
@@ -48,7 +48,7 @@ const KBar = (props: KBarProps) => {
 			keywords: "linkedin",
 			section: "Social",
 			perform: () =>
-				window.open("https://linkedin.com/in/gitonga-deus/", "_blank"),
+				window.open("https://www.linkedin.com/in/lucasciappa/", "_blank"),
 			icon: <LinkedIn width="30" height="30" />,
 		},
 		{
@@ -57,7 +57,7 @@ const KBar = (props: KBarProps) => {
 			keywords: "ig instagram",
 			section: "Social",
 			perform: () =>
-				window.open("https://instagram.com/_deus04", "_blank"),
+				window.open("https://www.instagram.com/lucasciapparelli/", "_blank"),
 			icon: <Instagram width="30" height="30" />,
 		},
 	]
