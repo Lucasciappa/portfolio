@@ -37,7 +37,7 @@ const Projects = () => {
 						href="/projects"
 						className="group my-2 flex items-center gap-1 items-center text-base leading-7 text-gray-700 dark:text-gray-400 transition-all duration-300 hover:scale-105"
 					>
-						<span>See More</span>
+						<span>Ver mas</span>
 						<ChevronRight />
 					</Link>
 				</div>
