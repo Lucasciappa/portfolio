@@ -14,19 +14,20 @@ type CardProps = {
 const Card = ({ title, description, href, github, tech }: CardProps) => {
 	return (
 		<div className="flex flex-col space-y-3 rounded border border-accent-2 py-3 px-2 ">
-			<div className="flex flex-row justify-between px-3">
-				<Link
-					href={github}
-					target="_blank"
-					className="mx-1 transition-all duration-300 hover:scale-110"
-				>
-					<Github width="25" height="25" />
-				</Link>
-
+			<div className="flex flex-row-reverse justify-between px-3 self-start">
+				{github && (
+					<Link
+						href={github}
+						target="_blank"
+						className="mx-1 transition-all duration-300 hover:scale-110"
+					>
+						<Github width="25" height="25" />
+					</Link>
+				)}
 				<Link
 					href={href}
 					target="_blank"
-					className="mx-1 transition-all duration-300 hover:scale-110"
+					className="mx-1 transition-all duration-300 hover:scale-110 "
 				>
 					<ExternalLink />
 				</Link>

@@ -81,28 +81,41 @@ export const HERO_LINKS: HeroLinks = [
 export const PROJECTS: ProjectLinks = [
 	{
 		id: 1,
-		name: "Githiga Self-Help Group",
-		description: "Official website for St. John Evangelist Githiga Catholic Church Self-Help Group",
-		slug: "githiga-shg",
-		githubUrl: "https://github.com/gitonga-deus/githiga_shg.git",
-		websiteUrl: "https://githigacaritasnairobi.org/",
+		name: "GransLiving",
+		description: "Página web oficial de GransLiving. Buscador de residencias, optimizaciones, SEO friendly.",
+		slug: "gransliving",
+		githubUrl: null,
+		websiteUrl: "https://gransliving.com/",
 		tech: [
-			"React JS",
-			"Sanity CMS",
-			"Bootstrap"
+			"Next.JS",
+			"Tailwind",
+			"Node.js",
+			"MongoDB",
 		]
 	},
 	{
 		id: 2,
-		name: "Personal Website 2.0",
-		description: "A Next.js website for the purpose of showcasing skills, experience, and work.",
-		slug: "portfolio",
-		githubUrl: "https://github.com/gitonga-deus/portfolio.git",
-		websiteUrl: "https://gitonga.me/",
+		name: "Neucrist",
+		description: "Un emprendimiento de neumáticos, creada sin tanto detalle.",
+		slug: "neucrist",
+		githubUrl: "https://github.com/Lucasciappa/Neucrist",
+		websiteUrl: "https://www.neucrist.com.ar/",
 		tech: [
 			"Next.js",
 			"Tailwind CSS",
 			"TypeScript"
+		]
+	},
+	{
+		id: 3,
+		name: "Gonzalo Giudice DJs",
+		description: "Una landing page sencilla con un formulario para enviar consultas.",
+		slug: "gonzalogiudicedjs",
+		githubUrl: "https://github.com/Lucasciappa/gonzalogiudicedjs",
+		websiteUrl: "https://www.gonzalogiudicedjs.com.ar/",
+		tech: [
+			"Next.js",
+			"Tailwind CSS",
 		]
 	},
 ]

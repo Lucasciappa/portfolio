@@ -9,17 +9,17 @@ const Projects = () => {
 	return (
 		<>
 			<SEO
-				title="Projects - Deus Gitonga"
-				keywords="Deus Gitonga, front-end developer, portfolio, projects, user experience, user interface"
-				description="Check out Deus Gitonga's Portfolio of Front-End Development Projects, featuring dynamic, user-friendly websites and applications."
+				title="Proyectos - Lucas Ciapparelli"
+				keywords="Lucas Ciapparelli, Front-End Developer, Full Stack Developer, JavaScript Developer, React Developer, Next.js Developer"
+				description="Descubre mas sobre Lucas Ciapparelli. Full Stack developer con experiencia en la creación de aplicaciones SEO friendly y dinamicas."
 			/>
 
 			<div className="space-y-2 py-6 md:space-y-5">
 				<h1 className="mb-1 text-3xl font-bold tracking-tight text-zinc-800 dark:text-white md:text-4xl">
-					Projects
+					Proyectos
 				</h1>
-				<p className="text-[15px] sm:text-[14px] md:text-[15px] font-[500] leading-7 text-gray-500 dark:text-gray-400">
-					A selection of projects I worked on in the past few years. Make sure to give them a star  ⭐ on GitHub!
+				<p className="text-[15px] md:text-[16px] font-[500] leading-7 text-gray-500 dark:text-gray-400">
+					Aquí podrán ver algunos de los proyectos donde trabajé.
 				</p>
 			</div>
 			<div className="grid gap-6 sm:grid-cols-2">
