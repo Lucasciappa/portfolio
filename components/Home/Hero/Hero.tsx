@@ -19,7 +19,7 @@ const Hero = () => {
 						</span>
 					</h1>
 					<p className="text-[16px] leading-7 text-gray-600 dark:text-gray-400">
-						Bienvenidos a mi portfolio, aquí podrán conocerme mejor, ver los proyectos donde trabajé y las tecnologías que me gustan, entre muchas cosas mas!!
+						Bienvenidos a mi portfolio, aquí podrán conocerme mejor, ver mis proyectos, las tecnologías que me gustan, entre muchas otras otras cosas!!
 					</p>
 				</div>
 			</div>
