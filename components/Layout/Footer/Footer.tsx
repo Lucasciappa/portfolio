@@ -40,15 +40,14 @@ const Footer = () => {
 			</div> */}
 			<div className="flex flex-col items-center justify-between gap-6 mt-12">
 				<div className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-					<NavLink href="/about">About</NavLink>
-					<NavLink href="/dashboard">Dashboard</NavLink>
-					<NavLink href="/writing">Writing</NavLink>
-					<NavLink href="/projects">Projects</NavLink>
-					<NavLink href="/uses">Uses</NavLink>
+					<NavLink href="/uses">Inicio</NavLink>
+					<NavLink href="/writing">Blog</NavLink>
+					<NavLink href="/projects">Proyectos</NavLink>
+					<NavLink href="/about">Sobre mi</NavLink>
 				</div>
 				<div className="flex flex-col">
 					<p className="text-sm text-zinc-600 dark:text-zinc-400">
-						&copy; {(new Date).getFullYear()} Lucas Ciapparelli. All rights reserved.
+						&copy; {(new Date).getFullYear()} Lucas Ciapparelli. Todos los derechos reservados.
 					</p>
 					<div className="mx-auto mt-6 flex gap-6">
 						<SocialLink

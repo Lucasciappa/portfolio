@@ -9,22 +9,22 @@ export const HEADER_LINKS: DropdownItemType[] = [
 	{
 		icon: <Home />,
 		href: "/",
-		text: "Home",
+		text: "Inicio",
 	},
 	{
 		icon: <Projects />,
 		href: "/writing",
-		text: "Writing",
+		text: "Blog",
 	},
 	{
 		icon: <Projects />,
 		href: "/projects",
-		text: "Projects",
+		text: "Proyectos",
 	},
 	{
 		icon: <About />,
 		href: "/about",
-		text: "About",
+		text: "Sobre mi",
 	},
 ]
 
