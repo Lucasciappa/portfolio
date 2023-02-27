@@ -8,6 +8,7 @@ import Header from "@/components/Layout/Header"
 import Footer from "@/components/Layout/Footer"
 
 import type { AppProps } from "next/app"
+import WhatsappLogoSticky from "@/components/WhatsApp/WhatsappLogoSticky"
 
 const inter = Inter({
 	variable: '--font-inter',
@@ -25,6 +26,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 						<Header />
 						<main className="relative mx-auto mb-16 max-w-4xl px-8 py-24">
 							<Component {...pageProps} />
+							<WhatsappLogoSticky />
 						</main>
 						<Footer />
 					</KBar>
