@@ -32,6 +32,9 @@ const Header = () => {
 										},
 										{
 											["bg-[#555] dark:bg-[#24292e] text-white"]: link.href === pathname,
+										},
+										{
+											["bg-[#555] dark:bg-[#24292e] hover:dark:bg-[#555] text-white"]: link.href === "resume.pdf",
 										}
 									)}
 									href={link.href}

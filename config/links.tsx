@@ -26,6 +26,11 @@ export const HEADER_LINKS: DropdownItemType[] = [
 		href: "/about",
 		text: "Sobre mi",
 	},
+	{
+		icon: <About />,
+		href: "resume.pdf",
+		text: "Descarga mi CV",
+	},
 ]
 
 export const FOOTER_LINKS: FooterLinks = [
