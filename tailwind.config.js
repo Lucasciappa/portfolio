@@ -11,6 +11,9 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			spacing: {
+				'2rem': '2rem',
+			  },
 			colors: {
 				primary: {
 					coral: "#F64850",

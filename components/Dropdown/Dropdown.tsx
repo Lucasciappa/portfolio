@@ -27,7 +27,7 @@ Dropdown.Content = (props: DropdownPrimitives.DropdownMenuContentProps) => {
 		<DropdownPrimitives.Portal>
 			<DropdownPrimitives.Content
 				className={clsxm(
-					"absolute right-0 z-50 mt-2 w-56 origin-top-right rounded border border-accent-2 bg-portfolio-bg py-2 transition-colors",
+					"relative left-2rem z-50 mt-2 w-56 origin-top-right rounded border border-accent-2 bg-portfolio-bg py-2 transition-colors",
 					className
 				)}
 				{...rest}
