@@ -1,16 +1,19 @@
 import { FOOTER_LINKS } from "@/config/links"
 
-import Link from "@/components/Link"
+import Link from 'next/link'
 import NowPlaying from "@/components/NowPlaying"
 import { ReactNode } from "react"
 import { SocialLink } from "./SocialLink"
+import clsx from "clsx"
 import { GitHubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from '@/components/Icon/SocialIcons'
 
 function NavLink({ href, children }: { href: string, children: ReactNode }) {
 	return (
 		<Link
 			href={href}
-			className="transition hover:text-primary-coral dark:hover:text-primary-coral"
+			// className="transition hover:text-primary-coral dark:hover:text-primary-coral"
+			className={clsx(
+				"rounded py-2 px-3 text-sm font-[500] transition-colors duration-300 text-[#555] dark:text-white hover:bg-[#555] hover:text-white")}
 		>
 			{children}
 		</Link>
@@ -39,7 +42,7 @@ const Footer = () => {
 				))}
 			</div> */}
 			<div className="flex flex-col items-center justify-between gap-6 mt-12">
-				<div className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+				<div className="flex gap-3 text-sm font-medium text-zinc-800 dark:text-zinc-200">
 					<NavLink href="/uses">Inicio</NavLink>
 					<NavLink href="/writing">Blog</NavLink>
 					<NavLink href="/projects">Proyectos</NavLink>
