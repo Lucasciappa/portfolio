@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 				<ThemeProvider attribute="class">
 					<KBar>
 						<Header />
-						<main className="relative mx-auto mb-16 max-w-4xl px-8 py-24">
+						<main className="relative mx-auto mb-16 max-w-4xl px-8 pt-12 md:pt-24 pb-24">
 							<Component {...pageProps} />
 							<WhatsappLogoSticky />
 						</main>
