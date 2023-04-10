@@ -86,20 +86,34 @@ export const HERO_LINKS: HeroLinks = [
 export const PROJECTS: ProjectLinks = [
 	{
 		id: 1,
-		name: "GransLiving",
-		description: "Página web oficial de GransLiving. Buscador de residencias, optimizaciones, SEO friendly.",
-		slug: "gransliving",
+		name: "Valorant Challenger LATAM",
+		description: "Página oficial de challengers LATAM 2023 Valorant. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builder'.",
+		slug: "valorant-challenger",
 		githubUrl: null,
-		websiteUrl: "https://gransliving.com/",
+		websiteUrl: "https://www.valorantchallengers.lat/",
 		tech: [
-			"Next.JS",
-			"Tailwind",
+			"Next.js",
+			"Tailwind CSS",
 			"Node.js",
-			"MongoDB",
+			"TypeScript"
 		]
 	},
 	{
 		id: 2,
+		name: "Overwatch World Cup - América",
+		description: "Página oficial de las pruebas para el campeonato mundial de Overwatch 2023 en América. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builder'.",
+		slug: "overwatch-world-cup",
+		githubUrl: null,
+		websiteUrl: "https://overwatchwcamericasa.com/",
+		tech: [
+			"Next.js",
+			"Tailwind CSS",
+			"Node.js",
+			"TypeScript"
+		]
+	},
+	{
+		id: 3,
 		name: "Neucrist",
 		description: "Un emprendimiento de neumáticos, creada sin tanto detalle.",
 		slug: "neucrist",
@@ -112,15 +126,28 @@ export const PROJECTS: ProjectLinks = [
 		]
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Gonzalo Giudice DJs",
-		description: "Una landing page sencilla con un formulario para enviar consultas.",
+		description: "Landing sencilla con un formulario para enviar consultas.",
 		slug: "gonzalogiudicedjs",
 		githubUrl: "https://github.com/Lucasciappa/gonzalogiudicedjs",
 		websiteUrl: "https://www.gonzalogiudicedjs.com.ar/",
 		tech: [
 			"Next.js",
 			"Tailwind CSS",
+		]
+	},
+	{
+		id: 4,
+		name: "Portfolio web",
+		description: "Éste portfolio, para que puedan ver un poco de su código fuente.",
+		slug: "portfolio",
+		githubUrl: "https://github.com/Lucasciappa/portfolio",
+		websiteUrl: "https://lucasciappa-dev.vercel.app/",
+		tech: [
+			"Next.js",
+			"TypeScript",
+			"Tailwind CSS"
 		]
 	},
 ]
