@@ -13,7 +13,7 @@ type CardProps = {
 
 const Card = ({ title, description, href, github, tech }: CardProps) => {
 	return (
-		<div className="flex flex-col space-y-3 rounded border border-accent-2 py-3 px-2 ">
+		<div className="flex flex-col space-y-3 rounded-2xl border-2 border-accent-3 py-3 px-2 ">
 			<div className="flex flex-row-reverse justify-between px-3 self-start">
 				{github && (
 					<Link
