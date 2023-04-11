@@ -10,7 +10,7 @@ import Card from "@/components/Card"
 const Projects = () => {
 	return (
 		<>
-			<div className="space-y-2 mt-8 mb-4 md:space-y-5 md:py-2">
+			<div className="space-y-2 mt-16 mb-6 md:space-y-5 md:py-3">
 				<h1 className="mb-1 text-3xl font-bold tracking-tight text-zinc-800 dark:text-white md:text-4xl">
 					Projects
 				</h1>
