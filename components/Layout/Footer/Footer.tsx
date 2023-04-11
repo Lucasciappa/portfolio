@@ -22,7 +22,7 @@ function NavLink({ href, children }: { href: string, children: ReactNode }) {
 
 const Footer = () => {
 	return (
-		<footer className="mx-auto flex max-w-4xl flex-col px-8 pb-8 border-t border-zinc-100 pt-10 pb-16 dark:border-zinc-700/40">
+		<footer className="mx-auto flex max-w-6xl flex-col px-8 pb-8 border-t border-zinc-100 pt-6 pb-16 dark:border-zinc-700/40">
 
 
 			{/* <NowPlaying /> */}
@@ -41,7 +41,7 @@ const Footer = () => {
 					</div>
 				))}
 			</div> */}
-			<div className="flex flex-col items-center justify-between gap-6 mt-12">
+			<div className="flex flex-col items-center justify-between gap-6 pt-6 border-t dark:border-gray-600">
 				<div className="flex gap-3 text-sm font-medium text-zinc-800 dark:text-zinc-200">
 					<NavLink href="/uses">Inicio</NavLink>
 					<NavLink href="/writing">Blog</NavLink>
