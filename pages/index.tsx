@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO"
 import Hero from "@/components/Home/Hero"
+import TechStack from "@/components/Home/TechStack"
 import Projects from "@/components/Home/Projects"
 import Chat from "@/components/Home/Chat/Chat"
 
@@ -31,6 +32,7 @@ export default function Home() {
 				description="Me llamo Lucas Ciapparelli y soy Full Stack Developer, especialista en crear aplicaciones web amigables y dinámicas. Más información sobre mis servicios y habilidades."
 			/>
 			<Hero />
+			<TechStack />
 			<Projects />
 			<Chat apiKey={API_KEY} examples={EXAMPLES} answers={ANSWERS} initialMessage="Hola, haceme tu pregunta" />
 		</>

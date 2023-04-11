@@ -1,9 +1,11 @@
-import { Github, Instagram, LinkedIn, About, Home, Projects } from "@/components/Icon"
+import { Github, Instagram, LinkedIn, About, Home, Projects, NextJS, JavaScript, TypeScript, ReactJS, Angular, NodeJS, MongoDB, Python, MySQL } from "@/components/Icon"
 
 import { DropdownItemType } from "@/components/Dropdown"
-import { HeroLinks } from "@/components/Home/Hero"
-import { ProjectLinks } from "@/components/Home/Projects"
 import { FooterLinks } from "@/components/Layout/Footer"
+import { HeroLinks } from "@/components/Home/Hero"
+import { TechStackLinks } from "@/components/Home/TechStack/TechStack.types"
+import { ProjectLinks } from "@/components/Home/Projects"
+import Linux from "@/components/Icon/Linux"
 
 export const HEADER_LINKS: DropdownItemType[] = [
 	{
@@ -83,11 +85,54 @@ export const HERO_LINKS: HeroLinks = [
 	}
 ]
 
+export const TECH_STACK_LINKS: TechStackLinks = [
+	{
+		icon: <JavaScript width="65" height="65"/>,
+		href: "https://developer.mozilla.org/es/docs/Web/JavaScript",
+	},
+	{
+		icon: <TypeScript width="65" height="65" />,
+		href: "https://www.typescriptlang.org/",
+	},
+	{
+		icon: <ReactJS width="65" height="65" />,
+		href: "https://es.reactjs.org/",
+	},
+	{
+		icon: <NextJS width="65" height="65" />,
+		href: "https://nextjs.org/",
+	},
+	{
+		icon: <Angular width="65" height="65" />,
+		href: "https://angular.io/",
+	},
+	{
+		icon: <NodeJS width="65" height="65" />,
+		href: "https://nodejs.org/",
+	},
+	{
+		icon: <Python width="65" height="65" />,
+		href: "https://www.python.org/",
+	},
+	{
+		icon: <MongoDB width="65" height="65" />,
+		href: "https://www.mongodb.com/",
+	},
+	{
+		icon: <MySQL width="65" height="65" />,
+		href: "https://www.mysql.com/",
+	}
+	// {
+	// 	icon: <Linux width="65" height="65" />,
+	// 	href: "https://www.instagram.com/lucasciapparelli",
+	// }
+]
+
 export const PROJECTS: ProjectLinks = [
 	{
 		id: 1,
 		name: "Valorant Challenger LATAM",
-		description: "Página oficial de challengers LATAM 2023 Valorant. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builder'.",
+		description: "Página oficial de challengers LATAM 2023 Valorant. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builders'.",
 		slug: "valorant-challenger",
 		githubUrl: null,
 		websiteUrl: "https://www.valorantchallengers.lat/",
@@ -100,8 +145,8 @@ export const PROJECTS: ProjectLinks = [
 	},
 	{
 		id: 2,
-		name: "Overwatch World Cup - América",
-		description: "Página oficial de las pruebas para el campeonato mundial de Overwatch 2023 en América. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builder'.",
+		name: "Overwatch World Cup",
+		description: "Página oficial de las pruebas para el campeonato mundial de Overwatch 2023 en América. Desarrollada junto con mi equipo y emprendimiento 'Shiva Web Builders'.",
 		slug: "overwatch-world-cup",
 		githubUrl: null,
 		websiteUrl: "https://overwatchwcamericasa.com/",

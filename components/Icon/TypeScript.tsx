@@ -1,11 +1,16 @@
 import React from "react";
 
-const TypeScript = () => {
+type TypeScriptProps = {
+    width: string
+    height: string
+}
+
+const TypeScript = ({ width, height }: TypeScriptProps) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 48 48"
-			width="40px" height="40px"
+			className="icon icon-tabler icon-tabler-brand-github" width={width} height={height}
 		>
 			<linearGradient
 				id="atmafua87GAY-Q3DVUuwga"
